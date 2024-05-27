@@ -1,6 +1,6 @@
 # testing_flutter
 
-A new Flutter project.
+For Training Flutter Kemenkeu Unit Test & Integration Test
 
 ## Getting Started
 
