@@ -1,0 +1,33 @@
+Testing pada flutter ada 2 jenis yaitu unit testing dan widget testing :
+
+Unit testing adalah pengujian yang dilakukan pada kode program yang kita buat. 
+Sedangkan widget testing adalah pengujian yang dilakukan pada widget yang kita buat. Pada flutter, widget testing menggunakan package flutter_test.dart. Berikut adalah contoh penggunaan widget testing pada flutter.
+
+package yg dibutuhkan unit testing:
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+- buat file test di dalam folder test
+- buat reverse_string_unit_test.dart
+
+- TDD (Test Driven Development) adalah metode pengembangan perangkat lunak yang menggabungkan proses pengembangan perangkat lunak dan pengujian perangkat lunak.
+
+- BDD (Behavior Driven Development) adalah metode pengembangan perangkat lunak yang menggabungkan proses pengembangan perangkat lunak dan pengujian perangkat lunak. BDD menggunakan bahasa yang lebih dekat dengan bahasa manusia, sehingga memudahkan dalam memahami kebutuhan pengujian perangkat lunak.
+
+Integrasi Testing :
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_driver:
+    sdk: flutter
+  test:
+
+- buat folder test_driver :
+- buat file test_driver/app.dart
+- buat file test_driver/app_test.dart
+
+perintah test Integrasi :
+flutter drive --target=test_driver/app.dart
